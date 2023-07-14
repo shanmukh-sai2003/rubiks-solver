@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/rubiks-solver/static/css/main.65a64aa2.css",
+    "main.js": "/rubiks-solver/static/js/main.ee30191e.js",
+    "static/media/rubik_cube2.png": "/rubiks-solver/static/media/rubik_cube2.44a15540d3001734a16c.png",
+    "static/media/rubik_cube1.png": "/rubiks-solver/static/media/rubik_cube1.c6986db449b0fd651aa8.png",
+    "static/media/rubik_cube3.png": "/rubiks-solver/static/media/rubik_cube3.1a1dd0776716eb8137f2.png",
+    "static/media/background-img.jpg": "/rubiks-solver/static/media/background-img.a027a1ff2784fabc2136.jpg",
+    "index.html": "/rubiks-solver/index.html",
+    "main.65a64aa2.css.map": "/rubiks-solver/static/css/main.65a64aa2.css.map",
+    "main.ee30191e.js.map": "/rubiks-solver/static/js/main.ee30191e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65a64aa2.css",
+    "static/js/main.ee30191e.js"
+  ]
+}
