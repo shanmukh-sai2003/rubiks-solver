@@ -47,3 +47,18 @@
 .solvePatternImgs img{
     width: 70%;
 }
+
+@media only screen and (max-width: 400px) {
+    .solvePattern {
+        flex-direction: column;
+        
+    }
+
+    .solvePatternBtns {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .solvePatternBtns button {
+        font-size: 1rem;
+    }
+}

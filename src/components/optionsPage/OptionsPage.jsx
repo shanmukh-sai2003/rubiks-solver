@@ -39,7 +39,7 @@ function OptionsPage() {
                 </div>
 
                 <div className="optionImgs">
-                    {mouseOverSolveFull && <img src={require("../images/rubik_cube1.png")} alt="rubiks-cube"></img>}
+                    {mouseOverSolveFull && <img  src={require("../images/rubik_cube1.png")} alt="rubiks-cube"></img>}
                     {mouseOverSolvePattern && <GridImg></GridImg>}
                 </div>
             </div>
@@ -51,9 +51,9 @@ function GridImg() {
     const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
     return (
         <div className="gridImg">
-            {arr.map((ele) => {
+            {arr.map((ele, index) => {
                 return (
-                    <img src={require(`../images/rubik_cube${1}.png`)} alt="rubiks"></img>
+                    <img src={require(`../images/rubik_cube${1}.png`)} alt="rubiks" key={index}></img>
                 )
             })} 
         </div>
