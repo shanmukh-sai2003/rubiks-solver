@@ -61,4 +61,9 @@
     .solvePatternBtns button {
         font-size: 1rem;
     }
+
+    .solvePatternBtns h1 {
+        font-size: 1.5rem;
+        flex-basis: 100%;
+    }
 }

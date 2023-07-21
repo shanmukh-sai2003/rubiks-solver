@@ -11,7 +11,6 @@ function TopDesign() {
 function BottomDesign() {
     return <div className="bottomDesign">
         <div>
-
         </div>
     </div>
 }
