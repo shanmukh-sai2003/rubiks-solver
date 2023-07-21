@@ -1,5 +1,6 @@
 import React, { useState } from "react"; 
 import "./SolvePattern.css";
+import {TopDesign, BottomDesign} from "../Design/Design";
 
 function SolvePattern() {
     const [mouseOver, setMouseOver] = useState(false);
@@ -18,7 +19,9 @@ function SolvePattern() {
     
     return (
         <div className="solvePattern">
+            <TopDesign></TopDesign>
             <div className="solvePatternBtns">
+                <h1>Patterns</h1>
                 {arr.map((ele) => {
                     return (
                         <button className={`shape${ele}`} onMouseOver={handleMouseOver} onMouseOut={handleMouseOver}>shape {ele}</button>
@@ -29,6 +32,7 @@ function SolvePattern() {
             <div className="solvePatternImgs">
                 {mouseOver && <img src={require(`../images/rubik_cube${shape % 2 + 1}.png`)} alt=""></img>}
             </div>
+            <BottomDesign></BottomDesign>
         </div>
     )
 }

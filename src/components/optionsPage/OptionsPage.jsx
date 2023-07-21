@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {useNavigate} from "react-router-dom";
 import "./OptionsPage.css";
+import {TopDesign, BottomDesign} from "../Design/Design";
 
 function OptionsPage() {
     const navigate = useNavigate();
@@ -22,6 +23,7 @@ function OptionsPage() {
 
     return (
         <div className="optionsPage">
+            <TopDesign></TopDesign>
             <h1>3 X 3 Rubiks cube solver</h1>
             <div className="container">
                 <div className="optionBtns">
@@ -43,6 +45,7 @@ function OptionsPage() {
                     {mouseOverSolvePattern && <GridImg></GridImg>}
                 </div>
             </div>
+            <BottomDesign></BottomDesign>
         </div>
     )
 }
